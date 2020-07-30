@@ -1,0 +1,83 @@
+body{
+	background-color: #FAFAFA;
+	margin: 20px;
+	font-family: verdana;
+
+}
+footer {
+border-top: solid 1px blue;
+padding-top: 10px;
+text-align: center;
+margin-top: 20px;
+}
+
+img{
+	border-radius:10px;
+}
+#indice{
+}
+#contenedor{
+	font-family: helvetica;
+	font-size: 16px;
+}
+#encabezado{
+	display: block;
+	margin: 0 auto;
+}
+.Itemindice{
+	list-style-type: upper-roman;
+}
+/*.enlace{
+	color: red;
+	font-size:20px;
+}*/
+h1.resalto{
+	background-color: aliceblue;
+	color: black;
+}
+
+* {
+	margin: 1vh 1vw;
+}
+
+h1 + h2{
+	text-decoration: underline;
+}
+h2 ~ p {
+	text - align: justify;
+}
+article> h2 {
+	text-decoration: underline;
+}
+ol li {
+	list-style-type:circle;
+	}
+
+	a[href^='#']{
+		color: red;
+	}
+	a:hover{
+		color: greem;
+	}
+	input: focus{
+		width: 160px;
+		height: 14px;
+	}
+p::first-letter{
+	text-transform: capitalize;}
+p::first-line{
+	font-size: 32px;
+	}
+p ::selection{
+
+}
+#estudio>ul>li:last-child>a::after{
+	content: '"- after"'
+}
+
+#estudio>ul>li:last-child>a::before{
+	content: '"before -"'
+}
+#estudio>ul>li:nth-child(2)>a::after{
+	content: '"hijo #2"'
+}
